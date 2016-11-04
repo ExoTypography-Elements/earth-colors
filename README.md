@@ -29,5 +29,5 @@ npm run lint
 # run unit tests
 npm test
 ```
-
+Proudly build with <b>Vuejs</b>
 For more information see the [docs for vueify](https://github.com/vuejs/vueify).
