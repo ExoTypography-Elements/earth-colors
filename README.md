@@ -1,4 +1,6 @@
-### <earth-typography>
+# earth-colors
+With exotypography earth-colors you can produce and brand all your color needs by setting a few variables
+This element is based a lot on Material Design Standards.  The difference is you can brand all the colors to your needs. <- This is a good thing since we all have different needs.
 
 > Your easy to use css base.  Hardly any classes for basic elements.  Only a small amount of utility classes to worry about.
 
