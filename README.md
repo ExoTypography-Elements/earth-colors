@@ -3,11 +3,14 @@ With exotypography earth-colors you can produce and brand all your color needs b
 This element is based a lot on Material Design Standards.  The difference is you can brand all the colors to your needs. <- This is a good thing since we all have different needs.
 
 > You control the base colors.
-> Easy to include in any project.
-> Seperate css file to include all colors when needed.
-> You can comment out colors that you do not need.
-> Uniform color pallet for your project.
 
+<ol>
+<li>Easy to include in any project.</li>
+<li>Seperate css file to include all colors when needed.</li>
+<li>You can comment out colors that you do not need.</li>
+<li>Uniform color pallet for your project.</li>
+
+</ol>
 ## Build Setup
 
 ``` bash
