@@ -15,11 +15,11 @@
   "license": "MIT",
   "author": "Findborg Cooperation",
   "scripts": {
-    "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/earth-typography.js",
+    "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/earth-colors.js",
     "serve": "http-server -c 1 -a localhost",
     "dev": "npm-run-all --parallel watchify serve",
     "lint": "eslint --ext .js,.vue src",
-    "build": "cross-env NODE_ENV=production browserify -g envify -p [ vueify/plugins/extract-css -o dist/earth-typography.css ] -e src/main.js | uglifyjs -c warnings=false -m > dist/earth-typography.js"
+    "build": "cross-env NODE_ENV=production browserify -g envify -p [ vueify/plugins/extract-css -o dist/earth-colors.css ] -e src/main.js | uglifyjs -c warnings=false -m > dist/earth-colors.js"
   },
   "browserify": {
     "transform": [
