@@ -23,9 +23,39 @@
       </div>
     </section>
     <div class="p3" >
-      <div class="page p-flex mx-auto">
+      <div class="et-white-text p-flex mx-auto">
         
-        <nav role="navigation" style="max-width: 960px;" class=" mx-auto">
+        <nav role="navigation" style="max-width: 740px;" class=" mx-auto">
+        <div class="row"><div class="col bg-blue p3" style="height:75px">Blue</div>
+        <div class="col bg-brown" style="height:75px">Brown</div>
+        <div class="col bg-yellow" style="height:75px">Yellow</div>
+        <div class="col bg-orange" style="height:75px">Orange</div>
+        </div>
+        <div class="row">
+        <div class="col bg-blue-grey" style="height:75px">Blue grey</div>
+        <div class="col bg-green" style="height:75px">Green</div>
+        <div class="col bg-light-blue" style="height:75px">Light blue</div>
+        <div class="col bg-pink" style="height:75px">Pink</div>
+        </div>
+        <div class="row">
+        <div class="col bg-lime" style="height:75px">Lime</div>
+        <div class="col bg-red" style="height:75px">Red</div>
+        <div class="col bg-grey" style="height:75px">Grey</div>
+        <div class="col bg-purple" style="height:75px">Purple</div>
+        
+        </div>
+        <div class="row">
+        <div class="col bg-indigo" style="height:75px">Indigo</div>
+        <div class="col bg-deep-orange" style="height:75px">Deep orange</div>
+        <div class="col bg-deep-purple" style="height:75px">Deep purple</div>
+        <div class="col bg-teal" style="height:75px">Teal</div>
+        </div>
+        <div class="row">
+        <div class="col bg-amber" style="height:75px">Amber</div>
+        <div class="col bg-light-green" style="height:75px">Light green</div>
+        <div class="col bg-cyan" style="height:75px">Cyan</div>
+        <div class="col bg-tan" style="height:75px">Tan</div>
+        </div>
           <ul>
             <li>
               <a href="#text">Text</a>
@@ -47,7 +77,8 @@
       </div>
     </div>
     <!--edit everything in here  -->
-<div>
+<div class="mx-auto" style="max-width:740px;">
+
           <!--color block  -->
           <div class="et-block">
             
@@ -79,7 +110,37 @@
           </div>
           
          <!-- End Color Block -->
-
+ <!--color block  -->
+          <div class="et-block">
+            
+              
+              <div class="p2 bg-tan"><h4>tan</h4></div>
+              <div class="p2 bg-tan-50">bg-tan-50</div>
+              <div class="p2 bg-tan-100">bg-tan-100</div>
+              <div class="p2 bg-tan-200">bg-tan-200</div>
+              <div class="p2 bg-tan-300">bg-tan-300</div>
+              <div class="p2 bg-tan-400">bg-tan-400</div>
+              <div class="p2 bg-tan">bg-tan </div>
+              <div class="p2 bg-tan-600">bg-tan-600</div>
+              <div class="p2 bg-tan-700">bg-tan-700</div>
+              <div class="p2 bg-tan-800">bg-tan-800</div>
+              <div class="p2 bg-tan-900">bg-tan-900</div>
+              <div class="etTitle">Accents</div>
+              <div class="p2 bg-tan-50">bg-tan-1</div>
+              <div class="p2 bg-tan-100">bg-tan-2</div>
+              <div class="p2 bg-tan-300">bg-tan-3</div>
+              <div class="p2 bg-tan-600">bg-tan-4</div>
+              <div class="transback" style="">
+                <div class="etTitle" >Transparency</div>  
+                <div class="p2 tan-trans-1">tan-trans-1</div>
+                <div class="p2 tan-trans-2">tan-trans-2</div>
+                <div class="p2 tan-trans-3">tan-trans-3</div>
+                <div class="p2 tan-trans-4">tan-trans-4</div>
+                <div class="p2 tan-trans-5">tan-trans-5</div>
+              </div>
+          </div>
+          
+         <!-- End Color Block -->
           <!--color block  -->
           <div class="et-block">
             
@@ -651,7 +712,7 @@
                 
                 
                 </div>
-   
+  
     <!-- end of edit everything -->
   <footer>
     {{ msg }}
